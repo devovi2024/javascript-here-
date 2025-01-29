@@ -1,0 +1,31 @@
+Declearing Variales.txt
+
+2.1 Declaring Variables
+    In javascript, variables are containers for storing dta and values.
+    
+--- Three ways to declare variables:
+    let:   Used for variables whose value can change.
+            -it has block-scoping, which means it is limited to the block(like a functions or loop) in which it is declared.
+            -let
+
+    const: -const is used to declare variables whose values can't be reassigned
+            after they are initialized. It's useful for values that you want to remain constant throughout program. 
+            -const
+
+    var: - Used in order JavaScript code but has issues 
+            with scope. 
+            It function-scoped , meaning it is accessible the function where it is declared.
+            - var
+
+
+
++------------+--------------+--------------------+------------+------------------------------------------+
+|  Keyword   | Can Reassign? |       Scope        |  Hoisting  |             Best Use Case              |
++------------+--------------+--------------------+------------+------------------------------------------+
+|    let     | ✅ Yes       | Block Scope        | ❌ No      | Use when value needs to change          |
+|   const    | ❌ No        | Block Scope        | ❌ No      | For constant values that shouldn't change |
+|    var     | ✅ Yes       | Function Scope     | ✅ Yes    | Older code, avoid in modern JavaScript  |
+|    global  | ✅ Yes       | Global Scope       | ✅ Yes    | For variables that need to be globally accessible |
+|    block   | ❌ No        | Block Scope        | ❌ No      | Similar to `let`, but designed for tighter use in blocks |
+|    function| ✅ Yes       | Function Scope     | ✅ Yes    | Useful for temporary variable declarations within functions |
++------------+--------------+--------------------+------------+------------------------------------------+
