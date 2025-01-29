@@ -16,3 +16,10 @@ const birthYear = 1999;
 const pi = 3.14159;
 
 console.log(birthYear, pi)
+
+
+// var (Function Scoped, can be reassigned, but should generally be avoid)
+
+var city = "Dhaka";
+var language = "BN"
+console.log(city, language)
