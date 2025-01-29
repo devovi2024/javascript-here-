@@ -1,0 +1,10 @@
+Different types of data types 
+    * Primitive types 
+     - (String, Number, Boolean, Bright and etc..);
+     - immutable values 
+
+     * Reference types
+      - (Object, Function and etc...);
+      - likes information data 
+
+      
