@@ -8,3 +8,11 @@ let isStudent = true;
 let hobbies = ["Coding", "Reading", "Secret"];
 let score = 95.7; //secret
 console.log(name, hobbies,score)
+
+
+
+// const (block scoped, cant'nt reassigned)
+const birthYear = 1999;
+const pi = 3.14159;
+
+console.log(birthYear, pi)
